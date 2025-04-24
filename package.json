@@ -1,6 +1,6 @@
 {
   "name": "angular-ngx-treeview",
-  "version": "11.0.5",
+  "version": "19.0.0",
   "license": "MIT",
   "description": "An Angular treeview component with checkbox",
   "scripts": {
@@ -26,13 +26,13 @@
     "recursive",
     "angular tree component"
   ],
-  "author": "TapBeep <hello@tapbeep.com>",
+  "author": "Aalarcon <aalarcon@viacorreo.com.ar>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tapbeep/ngx-treeview2.git"
+    "url": "git+https://github.com/aalarcon-viabariloche/ngx-treeview2.git"
   },
   "bugs": {
-    "url": "https://github.com/tapbeep/ngx-treeview2/issues"
+    "url": "https://github.com/aalarcon-viabariloche/ngx-treeview2/issues"
   },
   "dependencies": {
     "@angular/animations": "^19.2.8",
