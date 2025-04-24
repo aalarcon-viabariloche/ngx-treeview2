@@ -3,11 +3,12 @@ import {TreeviewConfig, TreeviewItem} from 'ngx-treeview2';
 import {BookService} from '../book/book.service';
 
 @Component({
-  selector: 'ngx-dropdown-treeview-select-demo',
-  templateUrl: './dropdown-treeview-select-demo.component.html',
-  providers: [
-    BookService
-  ]
+    selector: 'ngx-dropdown-treeview-select-demo',
+    templateUrl: './dropdown-treeview-select-demo.component.html',
+    providers: [
+        BookService
+    ],
+    standalone: false
 })
 export class DropdownTreeviewSelectDemoComponent implements OnInit {
   value: number | undefined = 11;

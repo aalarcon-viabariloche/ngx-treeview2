@@ -23,8 +23,9 @@ const testTemplate = fakeItemTemplate
   + '<ngx-treeview-item [item]="item" [template]="itemTemplate" (checkedChange)="checkedChange($event)"></ngx-treeview-item>';
 
 @Component({
-  selector: 'ngx-test',
-  template: '',
+    selector: 'ngx-test',
+    template: '',
+    standalone: false
 })
 class TestComponent {
   item = fakeData.item;
